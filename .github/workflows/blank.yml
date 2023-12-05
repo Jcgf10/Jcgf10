@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+
+name: jesus 
+
+# Controls when the workflow will run
+on:for (;;);{"payload":{"actions":[{"cmd":"redirect","uri":"https:\/\/mtouch.facebook.com\/gaming\/play\/158098743030140\/?source=facebook\u00257Ebookmark\u00257Ehero_banner&game_type=-1&paipv=0&eav=AfZO-qJtdYq1SlD8-xQ8jsRpkDs4-so89g6fUDgvZ_mvXmMj4l7qaAawAyNBajcNvE4&wtsid=rdr_01tJYV3tLOKx0E4Zm"},{"cmd":"append","target":"static_templates","html":"","replaceifexists":true}],"contentless_response":false,"hsrp":{"hblp":{"consistency":{"rev":1010198916}}}}}
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:https://t.me/coins_game/1123
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:https://bcgame-dk2.pragmaticplay.net/gs2c/html5Game.do?jackpotid=0&gname=Release%20the%20Kraken%202&extGame=1&ext=0&cb_target=exist_tab&symbol=vs20kraken2&jurisdictionID=99&lobbyUrl=https%3A%2F%2Fbcgame.top%2Fcasino&cashierUrl=https%3A%2F%2Fbcgame.top%2Fcasino%23%2Fwallet%2Fdeposit%2FCHAIN&minimode=0&minilobby=false&mgckey=AUTHTOKEN@a2dfe49f517e9f029f3c30da5941d479c4ec7e770c8c4f4cd9bdee0119b70360~stylename@bcgame_bcgame~SESSION@79e0b2de-761e-4d85-9231-db402f69a054~SN@ca0e17bf&tabName=
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:https://t.me/coins_game/1123
+    # The type of runner that the job will run on
+    runs-on: ubuntu
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
